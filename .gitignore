@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
+*.log
+
+server/target/
+web/node_modules/
+web/dist/
