@@ -43,7 +43,7 @@ services:
       context: ./web
       dockerfile: Dockerfile
       args:
-        VITE_API_URL: ${VITE_API_URL:-http://localhost:8080}
+        VITE_API_URL: ${VITE_API_URL:-/api}
     container_name: form-builder-web
     restart: unless-stopped
     ports:
